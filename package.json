@@ -1,0 +1,53 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rafael Cabanillas",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack serve --mode=development",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "css-loader": "^5.0.1",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.0.1",
+    "jest": "^24.0.0",
+    "moment": "^2.18.1",
+    "node-sass": "^6.0.1",
+    "normalize.css": "^8.0.1",
+    "raf": "^3.3.2",
+    "react": "^16.14.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.14.0",
+    "react-modal": "^3.12.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.14.0",
+    "redux": "^3.7.2",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "uuid": "^3.1.0",
+    "validator": "^13.5.2",
+    "webpack": "^5.11.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
+  }
+}
